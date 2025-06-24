@@ -28,7 +28,6 @@ class ServeurUI extends JFrame {
         stopButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Appelle la méthode shutdown du serveur
                 Serveur.shutdown();
             }
         });
