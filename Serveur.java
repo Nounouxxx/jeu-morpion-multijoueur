@@ -12,7 +12,6 @@ public class Serveur {
     private static final char[] SYMBOLS = {'X', 'O'};
 
     private static char[][] grid = new char[GRID_SIZE][GRID_SIZE];
-    // IMPORT CORRIGÉ : List et ArrayList déclarés explicitement
     private static List<ClientHandler> clients = new ArrayList<>();
     private static int currentPlayer = 0;
     private static boolean gameEnded = false;
